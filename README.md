@@ -1,7 +1,7 @@
 # Instrukcja
 W folderze z plikiem docker-compose.yml i docker-compose-test.yml:
 ```sh
-docker-compose up
+.\run.ps1
 ```
 Po zatrzymaniu docker-compose można usunąć niepotrzebne kontenery, wolumin i folder pgdata poleceniem:
 ```sh
