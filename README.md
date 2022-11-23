@@ -8,9 +8,10 @@ Po zatrzymaniu docker-compose można usunąć niepotrzebne kontenery, wolumin i 
 .\clean.ps1  
 ``` 
 
-# Odpalenie środowiska testowego z określonym plikiem .yml oraz własną nazwą projektu
+# Przykład polecenia z run.ps1:
+Odpalenie środowiska testowego z określonym plikiem .yml oraz własną nazwą projektu
 ```sh
-docker-compose -f .\docker-compose-test.yml -p todoAppTest up -d
+docker-compose -f .\docker-compose-test.yml -p todo-app-test up -d
 ```
 
 # Screenshot
