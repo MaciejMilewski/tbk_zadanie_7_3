@@ -15,9 +15,9 @@ docker-compose -f .\docker-compose-test.yml -p todo-app-test up -d
 ```
 
 # Screenshot
-Uruchomiony projekt, możemy zobaczyć ustawione porty 8089 i 8080
+#### Uruchomiony projekt, możemy zobaczyć ustawione porty 8089 i 8080
 ![Wynik po odpaleniu run.ps1 w konsoli](images/screen3.jpg)
-Dane dla kontenera bazy danych testowej są przechowywane w volume
+#### Dane dla kontenera bazy danych testowej są przechowywane w volume
 ![Screen wolumenu](images/pgdata_volume.jpg)
-Dane kontenera bazy danych produkcyjnego używają lokalnych plików
+#### Dane kontenera bazy danych produkcyjnego używają lokalnych plików
 ![Screen folderu pgdata](images/pgdata_local.jpg)
